@@ -76,7 +76,7 @@ tiempoCambioPersonaje = 0
 intervaloCambio = 50  # Intervalo de 500 ms (0.5 segundos)
 
 # Cargar imágenes
-imgFondo = pygame.image.load("fondo.png")
+imgFondo = pygame.image.load("fondo.jpeg")
 imgUAIBOT = pygame.transform.scale(pygame.image.load("UAIBOT.png").convert_alpha(), (GRID_SIZE, GRID_SIZE))
 imgUAIBOTA = pygame.transform.scale(pygame.image.load("UAIBOTA.png").convert_alpha(), (GRID_SIZE, GRID_SIZE))
 imgUAIBOTINO = pygame.transform.scale(pygame.image.load("UAIBOTINO.png").convert_alpha(), (GRID_SIZE, GRID_SIZE))
